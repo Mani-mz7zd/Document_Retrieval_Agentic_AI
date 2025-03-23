@@ -1,0 +1,63 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    networks:
+      - my-app-network
+    volumes:
+      - <directory path to upload the images>:<directory path to upload the images>
+    environment:
+      - BASE_UPLOAD_DIR=<directory path to upload the images>
+
+  frontend:
+    build:
+      context: ./frontend_ui
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8501:8501"
+    networks:
+      - my-app-network
+    depends_on:
+      - backend
+    volumes:
+      - <directory path of the indexed images>:<directory path of the indexed images>
+
+  # PostgreSQL and PgAdmin Services
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: <>
+      POSTGRES_USER: <>
+      POSTGRES_PASSWORD: <>
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: always
+    networks:
+      - my-app-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_LISTEN_PORT: 80
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+    restart: always
+    networks:
+      - my-app-network
+
+networks:
+  my-app-network:
+    driver: bridge
+
+volumes:
+  postgres-data:

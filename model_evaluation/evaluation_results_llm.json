@@ -1,0 +1,552 @@
+{
+    "llama_3_2_vision_response": {
+        "evaluations": [
+            {
+                "question": "What is the data transfer speed of USB 3.0 and USB 3.1 in MB/s?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the data transfer speed of PCIe Express Gen 3x16 compared to PCI Express Gen 3 x8 ?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, what is the result of searching for the value 14, and how many comparisons are made during the search?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, how many leaf nodes does the binary search tree have?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Which device in the hierarchy has the smallest storage capacity and fastest access time, and which one has the largest storage capacity and slowest access time?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does the speedup vary with the number of processing cores for different values (0.05, 0.10, 0.50) of serial fraction (S)?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What sequence of actions will lead the vacuum agent from the state where both rooms are dirty to the state where both rooms are clean?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What conditions must be true for the decision to be 'Yes' when the type of restaurant is 'Thai'?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "If there are 'full' patrons, and the person is hungry, what is the next decision based on the type of restaurant?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "At what stage does the kernel determine whether it can satisfy the I/O request without involving the device driver?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "At what point in the communication process does an attacker potentially gain access to the ciphertext?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the output at O1 (carry bit) and X2 (sum) if the inputs are 1, 0, and 1 in the given one-bit full adder circuit?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Which type of storage in the table provides the highest bandwidth, and what would this bandwidth be in Gigabytes/second?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the primary requirement for secondary storage in computer systems, and why is it needed?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "In which segment of memory are dynamically allocated variables, such as the values array, stored in the program shown?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does the linear regression model minimize error in predicting house prices, and why is the convex shape of the loss function important?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does varying the value of k in k-nearest-neighbor density estimation or the width w in kernel density estimation affect the smoothness of the resulting density estimates?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What controls the transfer of data from disk to memory in a computer system?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Where are embedded computers commonly found in real-time embedded systems?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the /proc file system in Linux systems and how is it organized?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Why do you think the /proc file system is implemented as a pseudo file system in memory rather than as a regular file system on disk?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the main difference between counter-based tools and tracing tools in terms of data collection?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the different sections in the memory layout of a C program from high memory to low memory?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What command can be used to determine the size of different sections in a C program's memory layout?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the essential components that constitute a thread in a CPU, and how do these components enable a thread to execute tasks within a process?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the purpose of using a separate front-end processor for terminal I/O in some systems?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the minimax search algorithm in games with two players, MAX and MIN?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "In Monte Carlo Tree Search (MCTS), what is the purpose of the back-propagation step, and how does it impact the parent nodes in the search tree",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How would you implement multiple threads in a web browser?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the two types of interrupt request lines in CPUs, and how are they used differently?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the L1 and L2 caches in a dual-core processor?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What role do internal programmable registers play in relation to main memory, and how do they contribute to system efficiency?",
+                "evaluation": "CORRECT"
+            }
+        ]
+    },
+    "GPT_4_turbo_response": {
+        "evaluations": [
+            {
+                "question": "What is the data transfer speed of USB 3.0 and USB 3.1 in MB/s?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the data transfer speed of PCIe Express Gen 3x16 compared to PCI Express Gen 3 x8 ?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, what is the result of searching for the value 14, and how many comparisons are made during the search?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, how many leaf nodes does the binary search tree have?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Which device in the hierarchy has the smallest storage capacity and fastest access time, and which one has the largest storage capacity and slowest access time?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does the speedup vary with the number of processing cores for different values (0.05, 0.10, 0.50) of serial fraction (S)?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What sequence of actions will lead the vacuum agent from the state where both rooms are dirty to the state where both rooms are clean?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What conditions must be true for the decision to be 'Yes' when the type of restaurant is 'Thai'?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "If there are 'full' patrons, and the person is hungry, what is the next decision based on the type of restaurant?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "At what stage does the kernel determine whether it can satisfy the I/O request without involving the device driver?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "At what point in the communication process does an attacker potentially gain access to the ciphertext?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the output at O1 (carry bit) and X2 (sum) if the inputs are 1, 0, and 1 in the given one-bit full adder circuit?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Which type of storage in the table provides the highest bandwidth, and what would this bandwidth be in Gigabytes/second?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the primary requirement for secondary storage in computer systems, and why is it needed?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "In which segment of memory are dynamically allocated variables, such as the values array, stored in the program shown?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does the linear regression model minimize error in predicting house prices, and why is the convex shape of the loss function important?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does varying the value of k in k-nearest-neighbor density estimation or the width w in kernel density estimation affect the smoothness of the resulting density estimates?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What controls the transfer of data from disk to memory in a computer system?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Where are embedded computers commonly found in real-time embedded systems?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the /proc file system in Linux systems and how is it organized?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Why do you think the /proc file system is implemented as a pseudo file system in memory rather than as a regular file system on disk?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the main difference between counter-based tools and tracing tools in terms of data collection?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the different sections in the memory layout of a C program from high memory to low memory?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What command can be used to determine the size of different sections in a C program's memory layout?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the essential components that constitute a thread in a CPU, and how do these components enable a thread to execute tasks within a process?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of using a separate front-end processor for terminal I/O in some systems?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the minimax search algorithm in games with two players, MAX and MIN?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "In Monte Carlo Tree Search (MCTS), what is the purpose of the back-propagation step, and how does it impact the parent nodes in the search tree",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How would you implement multiple threads in a web browser?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the two types of interrupt request lines in CPUs, and how are they used differently?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the L1 and L2 caches in a dual-core processor?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What role do internal programmable registers play in relation to main memory, and how do they contribute to system efficiency?",
+                "evaluation": "CORRECT"
+            }
+        ]
+    },
+    "claude_3_5_sonnet_response": {
+        "evaluations": [
+            {
+                "question": "What is the data transfer speed of USB 3.0 and USB 3.1 in MB/s?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the data transfer speed of PCIe Express Gen 3x16 compared to PCI Express Gen 3 x8 ?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, what is the result of searching for the value 14, and how many comparisons are made during the search?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, how many leaf nodes does the binary search tree have?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Which device in the hierarchy has the smallest storage capacity and fastest access time, and which one has the largest storage capacity and slowest access time?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does the speedup vary with the number of processing cores for different values (0.05, 0.10, 0.50) of serial fraction (S)?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What sequence of actions will lead the vacuum agent from the state where both rooms are dirty to the state where both rooms are clean?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What conditions must be true for the decision to be 'Yes' when the type of restaurant is 'Thai'?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "If there are 'full' patrons, and the person is hungry, what is the next decision based on the type of restaurant?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "At what stage does the kernel determine whether it can satisfy the I/O request without involving the device driver?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "At what point in the communication process does an attacker potentially gain access to the ciphertext?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the output at O1 (carry bit) and X2 (sum) if the inputs are 1, 0, and 1 in the given one-bit full adder circuit?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Which type of storage in the table provides the highest bandwidth, and what would this bandwidth be in Gigabytes/second?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the primary requirement for secondary storage in computer systems, and why is it needed?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "In which segment of memory are dynamically allocated variables, such as the values array, stored in the program shown?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does the linear regression model minimize error in predicting house prices, and why is the convex shape of the loss function important?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How does varying the value of k in k-nearest-neighbor density estimation or the width w in kernel density estimation affect the smoothness of the resulting density estimates?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What controls the transfer of data from disk to memory in a computer system?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Where are embedded computers commonly found in real-time embedded systems?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the /proc file system in Linux systems and how is it organized?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "Why do you think the /proc file system is implemented as a pseudo file system in memory rather than as a regular file system on disk?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the main difference between counter-based tools and tracing tools in terms of data collection?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the different sections in the memory layout of a C program from high memory to low memory?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What command can be used to determine the size of different sections in a C program's memory layout?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the essential components that constitute a thread in a CPU, and how do these components enable a thread to execute tasks within a process?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of using a separate front-end processor for terminal I/O in some systems?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the minimax search algorithm in games with two players, MAX and MIN?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "In Monte Carlo Tree Search (MCTS), what is the purpose of the back-propagation step, and how does it impact the parent nodes in the search tree",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "How would you implement multiple threads in a web browser?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What are the two types of interrupt request lines in CPUs, and how are they used differently?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What is the purpose of the L1 and L2 caches in a dual-core processor?",
+                "evaluation": "CORRECT"
+            },
+            {
+                "question": "What role do internal programmable registers play in relation to main memory, and how do they contribute to system efficiency?",
+                "evaluation": "CORRECT"
+            }
+        ]
+    },
+    "paligemma_response": {
+        "evaluations": [
+            {
+                "question": "What is the data transfer speed of USB 3.0 and USB 3.1 in MB/s?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the data transfer speed of PCIe Express Gen 3x16 compared to PCI Express Gen 3 x8 ?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, what is the result of searching for the value 14, and how many comparisons are made during the search?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Using the binary search tree in figure, how many leaf nodes does the binary search tree have?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Which device in the hierarchy has the smallest storage capacity and fastest access time, and which one has the largest storage capacity and slowest access time?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "How does the speedup vary with the number of processing cores for different values (0.05, 0.10, 0.50) of serial fraction (S)?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What sequence of actions will lead the vacuum agent from the state where both rooms are dirty to the state where both rooms are clean?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What conditions must be true for the decision to be 'Yes' when the type of restaurant is 'Thai'?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "If there are 'full' patrons, and the person is hungry, what is the next decision based on the type of restaurant?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "At what stage does the kernel determine whether it can satisfy the I/O request without involving the device driver?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "At what point in the communication process does an attacker potentially gain access to the ciphertext?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the output at O1 (carry bit) and X2 (sum) if the inputs are 1, 0, and 1 in the given one-bit full adder circuit?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Which type of storage in the table provides the highest bandwidth, and what would this bandwidth be in Gigabytes/second?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the primary requirement for secondary storage in computer systems, and why is it needed?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "In which segment of memory are dynamically allocated variables, such as the values array, stored in the program shown?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "How does the linear regression model minimize error in predicting house prices, and why is the convex shape of the loss function important?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "How does varying the value of k in k-nearest-neighbor density estimation or the width w in kernel density estimation affect the smoothness of the resulting density estimates?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What controls the transfer of data from disk to memory in a computer system?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Where are embedded computers commonly found in real-time embedded systems?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the purpose of the /proc file system in Linux systems and how is it organized?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "Why do you think the /proc file system is implemented as a pseudo file system in memory rather than as a regular file system on disk?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the main difference between counter-based tools and tracing tools in terms of data collection?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What are the different sections in the memory layout of a C program from high memory to low memory?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What command can be used to determine the size of different sections in a C program's memory layout?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What are the essential components that constitute a thread in a CPU, and how do these components enable a thread to execute tasks within a process?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the purpose of using a separate front-end processor for terminal I/O in some systems?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the purpose of the minimax search algorithm in games with two players, MAX and MIN?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "In Monte Carlo Tree Search (MCTS), what is the purpose of the back-propagation step, and how does it impact the parent nodes in the search tree",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "How would you implement multiple threads in a web browser?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What are the two types of interrupt request lines in CPUs, and how are they used differently?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What is the purpose of the L1 and L2 caches in a dual-core processor?",
+                "evaluation": "INCORRECT"
+            },
+            {
+                "question": "What role do internal programmable registers play in relation to main memory, and how do they contribute to system efficiency?",
+                "evaluation": "INCORRECT"
+            }
+        ]
+    },
+    "summary": {
+        "llama_3_2_vision_response": {
+            "correct_responses": 16,
+            "incorrect_responses": 16,
+            "accuracy": 0.5
+        },
+        "GPT_4_turbo_response": {
+            "correct_responses": 24,
+            "incorrect_responses": 8,
+            "accuracy": 0.75
+        },
+        "claude_3_5_sonnet_response": {
+            "correct_responses": 28,
+            "incorrect_responses": 4,
+            "accuracy": 0.88
+        },
+        "paligemma_response": {
+            "correct_responses": 0,
+            "incorrect_responses": 32,
+            "accuracy": 0.0
+        }
+    }
+}

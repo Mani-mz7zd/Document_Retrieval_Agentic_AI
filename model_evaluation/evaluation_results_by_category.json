@@ -1,0 +1,174 @@
+{
+    "llama_3_2_vision_response": {
+        "overall": {
+            "ROUGE-1 (precision)": 0.4721421009928128,
+            "ROUGE-2 (precision)": 0.31502062429664757,
+            "ROUGE-L (precision)": 0.39808551148102284,
+            "ROUGE-1 (recall)": 0.6972144353286897,
+            "ROUGE-2 (recall)": 0.45070938249825565,
+            "ROUGE-L (recall)": 0.5796912819949329,
+            "ROUGE-1 (fscore)": 0.5011024007051298,
+            "ROUGE-2 (fscore)": 0.32908228663046013,
+            "ROUGE-L (fscore)": 0.4195372131455386,
+            "BLEU": 0.1713067663596196,
+            "Cosine Similarity": 0.850745402276516
+        },
+        "by_category": {
+            "Figure": {
+                "ROUGE-1 (precision)": 0.432717172267167,
+                "ROUGE-2 (precision)": 0.27924889239294315,
+                "ROUGE-L (precision)": 0.37342722985035437,
+                "ROUGE-1 (recall)": 0.6577787803764038,
+                "ROUGE-2 (recall)": 0.4311995113016011,
+                "ROUGE-L (recall)": 0.5563428792991334,
+                "ROUGE-1 (fscore)": 0.44158472865872506,
+                "ROUGE-2 (fscore)": 0.2812018739639975,
+                "ROUGE-L (fscore)": 0.37591311854447595,
+                "BLEU": 0.14496791077621105,
+                "Cosine Similarity": 0.8158512816709631
+            },
+            "Text": {
+                "ROUGE-1 (precision)": 0.5168236868818777,
+                "ROUGE-2 (precision)": 0.35556192045417917,
+                "ROUGE-L (precision)": 0.42603156399578046,
+                "ROUGE-1 (recall)": 0.7419081776079473,
+                "ROUGE-2 (recall)": 0.47282056985446436,
+                "ROUGE-L (recall)": 0.6061528050501723,
+                "ROUGE-1 (fscore)": 0.5685557623577217,
+                "ROUGE-2 (fscore)": 0.38334675431911786,
+                "ROUGE-L (fscore)": 0.4689778536934097,
+                "BLEU": 0.20115746935414927,
+                "Cosine Similarity": 0.8902920722961426
+            }
+        }
+    },
+    "GPT_4_turbo_response": {
+        "overall": {
+            "ROUGE-1 (precision)": 0.47095773751795794,
+            "ROUGE-2 (precision)": 0.2802662292432964,
+            "ROUGE-L (precision)": 0.3749813901911291,
+            "ROUGE-1 (recall)": 0.7168832298649925,
+            "ROUGE-2 (recall)": 0.44776328020979633,
+            "ROUGE-L (recall)": 0.5910372205486125,
+            "ROUGE-1 (fscore)": 0.5148919697711666,
+            "ROUGE-2 (fscore)": 0.3115552174260684,
+            "ROUGE-L (fscore)": 0.41569699830357687,
+            "BLEU": 0.15847032406892983,
+            "Cosine Similarity": 0.8456759881228209
+        },
+        "by_category": {
+            "Figure": {
+                "ROUGE-1 (precision)": 0.3513264442382741,
+                "ROUGE-2 (precision)": 0.1930928806101055,
+                "ROUGE-L (precision)": 0.2631349341156705,
+                "ROUGE-1 (recall)": 0.7347360047344409,
+                "ROUGE-2 (recall)": 0.4336544179788971,
+                "ROUGE-L (recall)": 0.5851608907300475,
+                "ROUGE-1 (fscore)": 0.43043784708059496,
+                "ROUGE-2 (fscore)": 0.24047450278527063,
+                "ROUGE-L (fscore)": 0.3269835040255688,
+                "BLEU": 0.10177036222487808,
+                "Cosine Similarity": 0.8038579295663273
+            },
+            "Text": {
+                "ROUGE-1 (precision)": 0.6065398699015995,
+                "ROUGE-2 (precision)": 0.37906269102757956,
+                "ROUGE-L (precision)": 0.5017407070766485,
+                "ROUGE-1 (recall)": 0.6966500850129514,
+                "ROUGE-2 (recall)": 0.4637533240714824,
+                "ROUGE-L (recall)": 0.5976970610096524,
+                "ROUGE-1 (fscore)": 0.610606642153814,
+                "ROUGE-2 (fscore)": 0.3921133606856394,
+                "ROUGE-L (fscore)": 0.5162389584853192,
+                "BLEU": 0.22273028082552176,
+                "Cosine Similarity": 0.8930697878201802
+            }
+        }
+    },
+    "claude_3_5_sonnet_response": {
+        "overall": {
+            "ROUGE-1 (precision)": 0.48285637100700546,
+            "ROUGE-2 (precision)": 0.29818509239481034,
+            "ROUGE-L (precision)": 0.3926635375039845,
+            "ROUGE-1 (recall)": 0.7413172745917557,
+            "ROUGE-2 (recall)": 0.44188030077264934,
+            "ROUGE-L (recall)": 0.6005283893635424,
+            "ROUGE-1 (fscore)": 0.5434692311144604,
+            "ROUGE-2 (fscore)": 0.33327141074321925,
+            "ROUGE-L (fscore)": 0.4423882643056003,
+            "BLEU": 0.1566097699095206,
+            "Cosine Similarity": 0.8467949237674475
+        },
+        "by_category": {
+            "Figure": {
+                "ROUGE-1 (precision)": 0.39754765167410655,
+                "ROUGE-2 (precision)": 0.24445780008440743,
+                "ROUGE-L (precision)": 0.3165217992415949,
+                "ROUGE-1 (recall)": 0.7780654134216967,
+                "ROUGE-2 (recall)": 0.4491904103821784,
+                "ROUGE-L (recall)": 0.6195277054425172,
+                "ROUGE-1 (fscore)": 0.4880808056398453,
+                "ROUGE-2 (fscore)": 0.29650358933727555,
+                "ROUGE-L (fscore)": 0.3896637936991405,
+                "BLEU": 0.13327065617997605,
+                "Cosine Similarity": 0.8193086806465598
+            },
+            "Text": {
+                "ROUGE-1 (precision)": 0.5795395862509575,
+                "ROUGE-2 (precision)": 0.3590760236799335,
+                "ROUGE-L (precision)": 0.47895750753469274,
+                "ROUGE-1 (recall)": 0.6996693839178225,
+                "ROUGE-2 (recall)": 0.4335955098818498,
+                "ROUGE-L (recall)": 0.5789958311407041,
+                "ROUGE-1 (fscore)": 0.6062427799856906,
+                "ROUGE-2 (fscore)": 0.37494160833662205,
+                "ROUGE-L (fscore)": 0.5021426643262547,
+                "BLEU": 0.18306076546967112,
+                "Cosine Similarity": 0.8779459993044535
+            }
+        }
+    },
+    "paligemma_response": {
+        "overall": {
+            "ROUGE-1 (precision)": 0.26822916666666663,
+            "ROUGE-2 (precision)": 0.03125,
+            "ROUGE-L (precision)": 0.26432291666666663,
+            "ROUGE-1 (recall)": 0.012546246902858651,
+            "ROUGE-2 (recall)": 0.0004222972972972973,
+            "ROUGE-L (recall)": 0.010142400749012499,
+            "ROUGE-1 (fscore)": 0.020699255242235308,
+            "ROUGE-2 (fscore)": 0.0008333333333333333,
+            "ROUGE-L (fscore)": 0.01772306476604483,
+            "BLEU": 1.0812369751096648e-171,
+            "Cosine Similarity": 0.1495651177247055
+        },
+        "by_category": {
+            "Figure": {
+                "ROUGE-1 (precision)": 0.25,
+                "ROUGE-2 (precision)": 0.058823529411764705,
+                "ROUGE-L (precision)": 0.2426470588235294,
+                "ROUGE-1 (recall)": 0.013278611632270171,
+                "ROUGE-2 (recall)": 0.000794912559618442,
+                "ROUGE-L (recall)": 0.008753724754442116,
+                "ROUGE-1 (fscore)": 0.01949607882583483,
+                "ROUGE-2 (fscore)": 0.001568627450980392,
+                "ROUGE-L (fscore)": 0.01389383792947628,
+                "BLEU": 2.0352696002064278e-171,
+                "Cosine Similarity": 0.15895533572663278
+            },
+            "Text": {
+                "ROUGE-1 (precision)": 0.28888888888888886,
+                "ROUGE-2 (precision)": 0.0,
+                "ROUGE-L (precision)": 0.28888888888888886,
+                "ROUGE-1 (recall)": 0.01171623354285893,
+                "ROUGE-2 (recall)": 0.0,
+                "ROUGE-L (recall)": 0.01171623354285893,
+                "ROUGE-1 (fscore)": 0.022062855180822512,
+                "ROUGE-2 (fscore)": 0.0,
+                "ROUGE-L (fscore)": 0.022062855180822512,
+                "BLEU": 2.2875461232502196e-235,
+                "Cosine Similarity": 0.13892287065585454
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "llama_3_2_vision_response": {
+        "ROUGE-1 (precision)": 0.4721421009928128,
+        "ROUGE-1 (recall)": 0.6972144353286897,
+        "ROUGE-1 (fscore)": 0.5011024007051298,
+        "ROUGE-2 (precision)": 0.31502062429664757,
+        "ROUGE-2 (recall)": 0.45070938249825565,
+        "ROUGE-2 (fscore)": 0.32908228663046013,
+        "ROUGE-L (precision)": 0.39808551148102284,
+        "ROUGE-L (recall)": 0.5796912819949329,
+        "ROUGE-L (fscore)": 0.4195372131455386,
+        "BLEU": 0.1713067663596196,
+        "Cosine Similarity": 0.850745402276516
+    },
+    "GPT_4_turbo_response": {
+        "ROUGE-1 (precision)": 0.47095773751795794,
+        "ROUGE-1 (recall)": 0.7168832298649925,
+        "ROUGE-1 (fscore)": 0.5148919697711666,
+        "ROUGE-2 (precision)": 0.2802662292432964,
+        "ROUGE-2 (recall)": 0.44776328020979633,
+        "ROUGE-2 (fscore)": 0.3115552174260684,
+        "ROUGE-L (precision)": 0.3749813901911291,
+        "ROUGE-L (recall)": 0.5910372205486125,
+        "ROUGE-L (fscore)": 0.41569699830357687,
+        "BLEU": 0.15847032406892983,
+        "Cosine Similarity": 0.8456759881228209
+    },
+    "claude_3_5_sonnet_response": {
+        "ROUGE-1 (precision)": 0.48285637100700546,
+        "ROUGE-1 (recall)": 0.7413172745917557,
+        "ROUGE-1 (fscore)": 0.5434692311144604,
+        "ROUGE-2 (precision)": 0.29818509239481034,
+        "ROUGE-2 (recall)": 0.44188030077264934,
+        "ROUGE-2 (fscore)": 0.33327141074321925,
+        "ROUGE-L (precision)": 0.3926635375039845,
+        "ROUGE-L (recall)": 0.6005283893635424,
+        "ROUGE-L (fscore)": 0.4423882643056003,
+        "BLEU": 0.1566097699095206,
+        "Cosine Similarity": 0.8467949237674475
+    },
+    "paligemma_response": {
+        "ROUGE-1 (precision)": 0.26822916666666663,
+        "ROUGE-1 (recall)": 0.012546246902858651,
+        "ROUGE-1 (fscore)": 0.020699255242235308,
+        "ROUGE-2 (precision)": 0.03125,
+        "ROUGE-2 (recall)": 0.0004222972972972973,
+        "ROUGE-2 (fscore)": 0.0008333333333333333,
+        "ROUGE-L (precision)": 0.26432291666666663,
+        "ROUGE-L (recall)": 0.010142400749012499,
+        "ROUGE-L (fscore)": 0.01772306476604483,
+        "BLEU": 1.0812369751096648e-171,
+        "Cosine Similarity": 0.1495651177247055
+    }
+}
